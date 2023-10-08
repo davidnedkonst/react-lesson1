@@ -17,7 +17,9 @@ function ComponentList({ items }) {
 };
 
 ComponentList.propTypes = {
-    items: PropTypes.array
+    items: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string
+    }))
 }
 
 export default ComponentList;

@@ -7,9 +7,9 @@ function Component({
 }) {
     return (
         <div>
-            <h2>{title}</h2>
-            <div>{label}</div>
-            <div>{percent}</div>
+            <h3>Title: {title}</h3>
+            <div>Label: {label}</div>
+            <div>Percentage: {percent}</div>
         </div>)
 };
 
